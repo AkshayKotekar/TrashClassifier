@@ -7,7 +7,7 @@ import os
 
 IMG_SIZE = 224 
 class_names = ['organic', 'plastic', 'metal', 'paper', 'glass'] 
-saved_model_path = r'C:\Users\aksha\OneDrive\Desktop\Exp\guiHopeful\efficientnetb0_trash_classifiernew.keras' 
+saved_model_path = "efficientnetb0_trash_classifiernew.keras"
 
 @st.cache_resource
 def load_model():
