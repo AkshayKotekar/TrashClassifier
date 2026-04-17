@@ -6,7 +6,7 @@ from PIL import Image as PILImage
 import os
 
 IMG_SIZE = 224 
-class_names = ['organic', 'plastic', 'paper', 'metal', 'glass'] 
+class_names = ['glass', 'metal', 'paper', 'plastic', 'organic'] 
 saved_model_path = "efficientnetb0_trash_classifiernew.keras"
 
 @st.cache_resource
